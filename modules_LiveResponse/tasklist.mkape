@@ -1,0 +1,12 @@
+Description: running processes
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 41f24bf07d849688f202cb02e045a70a 
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\tasklist.exe
+        CommandLine: ""
+        ExportFormat: txt
+        ExportFile: tasklist.txt

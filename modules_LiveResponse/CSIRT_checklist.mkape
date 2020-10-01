@@ -1,0 +1,124 @@
+Description: artefacts from windows checklist (but not memory dump)
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 02c8908bec4fb5c1ab415e4bb6138dfa
+ExportFormat: txt
+FileMask: ""
+Processors:
+    -
+        Executable: administrators.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: ARPCache.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: autoruns.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: DNSCache.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: firewall.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: firewall_old.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: group_policies.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: handle.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: IPConfig.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: NBTStat_Netbios_Sessions.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: NBTStat_Netbios_Cache.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: NetStat.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: NetStatRoute.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Net_Session.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Net_Share.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Net_Start.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Net_Use.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Net_User.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Query_session.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: Query_user.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: qwinsta.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: RoutingTable.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: schtasks.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: tasklist.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: tasklist_libs.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: tasklist_services.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: wmic_process.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: wmic_startup.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: wmic_users.mkape
+        CommandLine: ""
+        ExportFormat: ""

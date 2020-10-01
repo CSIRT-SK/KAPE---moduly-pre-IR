@@ -1,0 +1,12 @@
+Description: running services
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 543e7c099cb074d8a69fb5c40a23a87e
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\tasklist.exe
+        CommandLine: /svc
+        ExportFormat: txt
+        ExportFile: tasklist_services.txt

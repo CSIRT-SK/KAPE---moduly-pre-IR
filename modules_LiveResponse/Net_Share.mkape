@@ -1,0 +1,12 @@
+Description: network shares
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1.0
+Id: dd5a14052729efc4f14517376f6412f5
+ExportFormat: txt 
+Processors:
+    -
+        Executable: C:\Windows\system32\net.exe
+        CommandLine: share
+        ExportFormat: txt
+        ExportFile: net_share.txt

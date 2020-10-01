@@ -1,0 +1,12 @@
+Description: group policies
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1.0
+Id: e6d4a0ac4038084d35cebb0da249c54c
+ExportFormat: txt 
+Processors:
+    -
+        Executable: C:\Windows\system32\gpresult.exe
+        CommandLine: /V
+        ExportFormat: txt
+        ExportFile: group_policies.txt

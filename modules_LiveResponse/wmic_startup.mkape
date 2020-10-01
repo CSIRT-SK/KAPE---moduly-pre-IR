@@ -1,0 +1,12 @@
+Description: startup services 
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 8b1952db6aa6ebeb92293248819a2fcd
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\wbem\WMIC.exe
+        CommandLine: startup list 
+        ExportFormat: txt
+        ExportFile: wmic_startup.txt

@@ -1,0 +1,12 @@
+Description: logged users
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: aa456930eccea9b4878d6a26609f0d3b
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\query.exe
+        CommandLine: user
+        ExportFormat: txt
+        ExportFile: query_user.txt

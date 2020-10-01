@@ -1,0 +1,12 @@
+Description: running processes with parents
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 6be0cbf92902a0964d84142fde455729
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\wbem\WMIC.exe
+        CommandLine: process get name,parentprocessid,processid
+        ExportFormat: txt
+        ExportFile: wmic_processes.txt

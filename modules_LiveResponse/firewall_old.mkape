@@ -1,0 +1,12 @@
+Description: firewall rules for older systems
+Category: LiveResponse
+Author: CSIRT.SK	
+Version: 1
+Id: 348e3595a7c6be095084169c75a02ece
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\netsh.exe
+        CommandLine: firewall show config
+        ExportFormat: txt
+        ExportFile: firewall_old.txt

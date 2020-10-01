@@ -1,0 +1,12 @@
+Description: user list
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: ddc8af5e9ae5ec9ba432282da3e236ae
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\wbem\WMIC.exe
+        CommandLine: useraccount list 
+        ExportFormat: txt
+        ExportFile: wmic_users.txt

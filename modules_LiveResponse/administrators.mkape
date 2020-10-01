@@ -1,0 +1,12 @@
+Description: administrator list
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1.0
+Id: 5d28df4f4b0f02feb33ae418d343939a
+ExportFormat: txt 
+Processors:
+    -
+        Executable: C:\Windows\system32\net.exe
+        CommandLine: localgroup "Administrators" 
+        ExportFormat: txt
+        ExportFile: administrators.txt

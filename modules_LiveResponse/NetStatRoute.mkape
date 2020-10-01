@@ -1,0 +1,12 @@
+Description: routing table
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 6cfda798a220e4c2eaa39fcb24d006fc
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\netstat.exe
+        CommandLine: -rn
+        ExportFormat: txt
+        ExportFile: network_route.txt

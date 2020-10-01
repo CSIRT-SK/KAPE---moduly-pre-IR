@@ -1,0 +1,12 @@
+Description: open sessions
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1.0
+Id: ca22bc1d604c3905e62e3c6423cb3605
+ExportFormat: txt 
+Processors:
+    -
+        Executable: C:\Windows\system32\net.exe
+        CommandLine: session
+        ExportFormat: txt
+        ExportFile: net_session.txt

@@ -1,0 +1,12 @@
+Description: running processes with loaded libraries
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: 337289142caefeee5d3a9c8ae61dbdde
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\tasklist.exe
+        CommandLine: /m
+        ExportFormat: txt
+        ExportFile: tasklist_libs.txt

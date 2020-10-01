@@ -1,0 +1,12 @@
+Description: user list
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1.0
+Id: fc88143f60d570142e6e65b9e71a7c30
+ExportFormat: txt 
+Processors:
+    -
+        Executable: C:\Windows\system32\net.exe
+        CommandLine: user
+        ExportFormat: txt
+        ExportFile: net_user.txt

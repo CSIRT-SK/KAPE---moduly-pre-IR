@@ -1,0 +1,12 @@
+Description: firewall rules
+Category: LiveResponse
+Author: CSIRT.SK	
+Version: 1
+Id: f76c38a86aadc8cdf715f14b6652a358
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\netsh.exe
+        CommandLine: advfirewall show currentprofile
+        ExportFormat: txt
+        ExportFile: firewall.txt

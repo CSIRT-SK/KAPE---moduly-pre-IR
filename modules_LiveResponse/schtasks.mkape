@@ -1,0 +1,12 @@
+Description: scheduled tasks
+Category: LiveResponse
+Author: CSIRT.SK	
+Version: 1
+Id: 7903b7bd14142ec4a72ffc2d96a0a3f0
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\schtasks.exe
+        CommandLine: /query /v /fo LIST
+        ExportFormat: txt
+        ExportFile: schtasks.txt

@@ -1,0 +1,12 @@
+Description: user session
+Category: LiveResponse
+Author: CSIRT.SK
+Version: 1
+Id: ec21203fa6829641aca47a6428c61bf8
+ExportFormat: txt
+Processors:
+    -
+        Executable: c:\windows\system32\query.exe
+        CommandLine: session
+        ExportFormat: txt
+        ExportFile: query_session.txt
