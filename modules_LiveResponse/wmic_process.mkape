@@ -1,12 +1,12 @@
-Description: running processes with parents
+Description: running processes with commandline and parents
 Category: LiveResponse
 Author: CSIRT.SK
 Version: 1
-Id: 6be0cbf92902a0964d84142fde455729
+Id: ee8544261614f8e2eaafc21e193aa8e6
 ExportFormat: txt
 Processors:
     -
         Executable: c:\windows\system32\wbem\WMIC.exe
-        CommandLine: process get name,parentprocessid,processid
+        CommandLine: process get commandline,name,parentprocessid,processid
         ExportFormat: txt
         ExportFile: wmic_processes.txt
